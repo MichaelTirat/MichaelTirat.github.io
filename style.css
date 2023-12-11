@@ -8,12 +8,32 @@ p{
 font-size: 20px;
 text-align: left;
 font-family: Helvetica, sans-serif;
+text-align : center;
 }
 
 body {
-background-color: grey;
+background-color: whitesmoke;
+text-align : center;
 }
 
 img {
-	max-width = 600px;
+  text-align : center;
+	max-width : 600px;
+ 	display:block;
+}
+
+.liste{
+
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
